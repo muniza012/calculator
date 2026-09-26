@@ -11,3 +11,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.todoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.completed{
+  text-decoration: line-through;
+}
